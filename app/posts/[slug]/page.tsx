@@ -31,7 +31,7 @@ export default async function Post({
         <h1 className="my-5 text-2xl font-bold">{post.title}</h1>
         <p className="mb-12 text-lg text-gray-500">{formatDate(post.date)}</p>
         <div
-          className="my-3 text-lg"
+          className="prose my-3 text-lg"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>
