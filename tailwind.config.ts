@@ -1,4 +1,3 @@
-import typography from "@tailwindcss/typography";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,6 +7,6 @@ const config: Config = {
     "./contents/**/*.md",
   ],
   theme: {},
-  plugins: [typography],
+  plugins: [],
 };
 export default config;
