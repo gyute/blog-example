@@ -1,1 +1,1 @@
-blog-example
+http://gyute.com/blog-example/
